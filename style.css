@@ -2,4 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    padding: 40px;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+#search{
+   width: 20%;
+   height: 40px;
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
 }
